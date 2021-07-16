@@ -39,10 +39,10 @@ for number in range(len(strList)):
             writer2 = "  " + strSpilt[0] + " " + "int(10)  COMMENT " + strSpilt[3]
             print(writer2)
         elif strSpilt[1] == "decimal(10,2)":
-            writer2 = "  " + strSpilt[0] + " " + "decimal(10,2) unsigned  COMMENT " + strSpilt[3]
+            writer2 = "  " + strSpilt[0] + " " + "decimal(10,2)  COMMENT " + strSpilt[3]
             print(writer2)
         elif strSpilt[1] == "double":
-            writer2 = "  " + strSpilt[0] + " " + "decimal(10,2) unsigned  COMMENT " + strSpilt[3]
+            writer2 = "  " + strSpilt[0] + " " + "decimal(10,2)  COMMENT " + strSpilt[3]
             print(writer2)
         else:
 
